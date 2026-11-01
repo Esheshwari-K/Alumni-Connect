@@ -1,4 +1,4 @@
--- Neon Serverless PostgreSQL Schema for Alumni Connect
+
 -- RV University Alumni Mentorship & Networking Platform
 
 CREATE TABLE IF NOT EXISTS users (
