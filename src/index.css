@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-warm: #FAFAF9;
+    --text-navy: #172338;
+    --text-slate: #718096;
+    --accent-gold: #D6AA61;
+    --accent-gold-hover: #C19349;
+    --border-subtle: #E2E8F0;
+  }
+
+  body {
+    background-color: #FAFAF9;
+    color: #172338;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom scrollbars and tabular numbers */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

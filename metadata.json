@@ -1,0 +1,6 @@
+{
+  "name": "Alumni Connect — RV University Alumni Mentorship & Networking Platform",
+  "description": "A comprehensive mentorship and professional networking platform connecting RV University students with alumni for guidance, session booking, messaging, and career opportunities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

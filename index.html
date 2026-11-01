@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumni Connect — RV University Alumni Mentorship & Networking Platform</title>
+    <meta name="description" content="A comprehensive mentorship and professional networking platform connecting RV University students with alumni for guidance, session booking, messaging, and career opportunities." />
+    <meta property="og:title" content="Alumni Connect — RV University Alumni Mentorship & Networking Platform" />
+    <meta property="og:description" content="A comprehensive mentorship and professional networking platform connecting RV University students with alumni for guidance, session booking, messaging, and career opportunities." />
+    <meta property="og:type" content="website" />
+    <script>
+      (function() {
+        // Suppress Vite HMR websocket noise in AI Studio cloud iframe
+        window.addEventListener('unhandledrejection', function(e) {
+          var reason = e && e.reason;
+          var str = String((reason && (reason.message || reason.stack || reason)) || '');
+          if (str.indexOf('WebSocket') !== -1 || str.indexOf('websocket') !== -1 || str.indexOf('vite') !== -1) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+          }
+        }, true);
+
+        window.addEventListener('error', function(e) {
+          var str = String((e && (e.message || e.error)) || '');
+          if (str.indexOf('WebSocket') !== -1 || str.indexOf('websocket') !== -1 || str.indexOf('vite') !== -1) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+          }
+        }, true);
+
+        var origErr = console.error;
+        console.error = function() {
+          for (var i = 0; i < arguments.length; i++) {
+            var arg = String(arguments[i] || '');
+            if (arg.indexOf('[vite]') !== -1 || arg.indexOf('WebSocket') !== -1 || arg.indexOf('websocket') !== -1) {
+              return;
+            }
+          }
+          origErr.apply(console, arguments);
+        };
+      })();
+    </script>
+    <link rel="icon" type="image/png" href="/assets/aistudio/image_2a9aa807.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
