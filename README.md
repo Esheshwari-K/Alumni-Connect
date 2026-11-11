@@ -1,7 +1,7 @@
 # Alumni Connect — University Alumni Mentorship & Networking Platform
 **RV University, Bengaluru · Academic Full Stack Development (FSD) Project**
 
-Alumni Connect is a full-stack web application developed by student at **RV University, Bengaluru**. It connects current undergraduate students with university alumni for 1-on-1 mentorship, career advice, mock technical interviews, exclusive internship referrals, persistent direct messaging, and scheduling mentoring sessions.
+Alumni Connect is a full-stack web application developed by a student at **RV University, Bengaluru**. It connects current undergraduate students with university alumni for 1-on-1 mentorship, career advice, mock technical interviews, exclusive internship referrals, persistent direct messaging, and scheduling mentoring sessions.
 
 ---
 
